@@ -27,7 +27,7 @@ public class EnterAccountTest {
 
     @Test
     @DisplayName("Вход через кнопку 'Личный кабинет'")
-    public void loginFromRegistrationFormTest() {
+    public void loginFromPersonalAreaTest() {
         LoginPage loginPage = new LoginPage(browserRule.getDriver());
         loginPage
                 .open()
