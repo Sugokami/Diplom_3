@@ -17,7 +17,6 @@ public class Steps {
     private final WebDriver driver;
 
     public Steps(WebDriver driver) {
-        PageFactory.initElements(driver, this);
         this.driver = driver;
     }
 
